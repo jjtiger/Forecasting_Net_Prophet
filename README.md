@@ -1,3 +1,4 @@
+![](prophet plotly.png)
 # Forecasting_Net_Prophet
 As a Solutions Analyst at MercadoLibre. With over 200 million users, MercadoLibre is the most popular e-commerce site in Latin America. Tasked with analyzing the company's financial and user data in clever ways to help the company grow, we apply forecasting models as a solution. To find out if the ability to predict search traffic can translate into the ability to successfully trade the stock, an analysis will highlight growth opportunities.
 In a bid to drive revenue,we have produced a Jupyter notebook that contains data preparation, analysis, and visualizations for all the time series data that the company needs to understand.The use of text and comments to document your findings are included in the code. The notebook contains the following:
