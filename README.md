@@ -1,6 +1,8 @@
 ![](prophet_plotly.png)
 # Forecasting_Net_Prophet
 
+A Financial Analysis to aid in a company growth strategy, applying forecasting models and proving metrics. Analysis includes a model using Prophet to determine the ability to accurately predict if search traffic can influence positive trading of particular stocks.
+
 Project Management:
 
 
