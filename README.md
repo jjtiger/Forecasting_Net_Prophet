@@ -1,7 +1,7 @@
 ![](prophet_plotly.png)
 # Forecasting_Net_Prophet
-As a Solutions Analyst at MercadoLibre. With over 200 million users, MercadoLibre is the most popular e-commerce site in Latin America. Tasked with analyzing the company's financial and user data in clever ways to help the company grow, we apply forecasting models as a solution. To find out if the ability to predict search traffic can translate into the ability to successfully trade the stock, an analysis will highlight growth opportunities.
-In a bid to drive revenue,we have produced a Jupyter notebook that contains data preparation, analysis, and visualizations for all the time series data that the company needs to understand.The use of text and comments to document your findings are included in the code. The notebook contains the following:
+
+Project Management:
 
 
 Visual depictions of seasonality (as measured by Google Search traffic) that are of interest to the company.
@@ -13,13 +13,10 @@ An evaluation of how the company stock price correlates to its Google Search tra
 A Prophet forecast model that can predict hourly user search traffic.
 
 
-Answers to the questions in the instructions that you write in your Jupyter notebook.
-
-
 A plot of a forecast for the company’s future revenue.
 
 
-You’ll gain proficiency in the following tasks:
+Proficiency gained in the following areas:
 
 
 Identifying patterns in time series data.
@@ -31,22 +28,20 @@ Mining for patterns in seasonality by using visualizations.
 Building sales-forecast and user-interest predictive models.
 
 
-Step 1: Found unusual patterns in hourly Google search traffic.
+ 1: Found unusual patterns in hourly Google search traffic.
 
 
-Step 2: Mined the search traffic data for seasonality.
+ 2: Mined the search traffic data for seasonality.
 
 
-Step 3: Related the search traffic to stock price patterns.
+ 3: Related the search traffic to stock price patterns.
 
 
-Step 4: Creatde a time series model by using Prophet.
+ 4: Created a time series model by using Prophet.
 
 
-Step 5: Forecasted the revenue by using time series models.
+ 5: Forecasted the revenue by using time series models.
 
-
-Found Unusual Patterns in Hourly Google Search Traffic
 
 Sliced the data to just the month of May 2020. (During this month, MercadoLibre released its quarterly financial results.) Used hvPlot to visualize the results. 
 
@@ -70,7 +65,7 @@ Grouped the search data by the week of the year.
 
 Related the Search Traffic to Stock Price Patterns
 
-During a meeting with people in the finance group at the company, I mentioned my work on the search traffic data. They wanted to know if any relationship between the search data and the company stock price exists, and if I can investigate.
+During a meeting with people in the finance group at the company, I mentioned my work on the search traffic data. They wanted to know if any relationship between the search data and the company stock price exists, and if I can investigate further for opportunity.
 
 To do so, I complete the following steps:
 
@@ -90,13 +85,10 @@ Created a new column in the DataFrame named “Lagged Search Trends” that offs
 “Hourly Stock Return”, which holds the percentage of change in the company stock price on an hourly basis
 
 
-
-
 Reviewed the time series correlation, and then answered the following question: Does a predictable relationship exist between the lagged search traffic and the stock volatility or between the lagged search traffic and the stock price returns?
 
 
-
-Step 4: Created a Time Series Model by Using Prophet
+Created a Time Series Model by Using Prophet
 
 Set up the Google search data for a Prophet forecasting model.
 
@@ -107,10 +99,10 @@ After estimating the model, plotted the forecast.
 Plotted the individual time series components of the model to answer the following questions:
 
 
-What time of day exhibits the greatest popularity?
+- Displayed what time of day exhibits the greatest popularity.
 
 
-Which day of the week gets the most search traffic?
+- Exhibited which day of the week gets the most search traffic.
 
 
-What's the lowest point for search traffic in the calendar year?
+- Identified the lowest point for search traffic in the calendar year?
